@@ -1,0 +1,7 @@
+.active-link {
+    color: #0f0f8a;
+}
+
+.active:hover, .active:focus {
+    color: blueviolet;
+}

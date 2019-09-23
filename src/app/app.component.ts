@@ -7,8 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-list';
-  selectedFeature = 'recipe'
-  selectItem($event) {
-    this.selectedFeature = $event;
-  }
 }
