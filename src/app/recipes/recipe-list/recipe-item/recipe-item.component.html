@@ -1,9 +1,10 @@
 <a
     style="cursor: pointer;"
     class="list-group-item clearfix"
-    (click)="displayRecipeDetails(recipe)">
+    [routerLink]="[index]"
+    routerLinkActive="active">
     <div class="pull-left">
-        <h4 class="list-group-iem-heading">{{ recipe.name }}</h4>
+        <h4 class="list-group-iem-heading">{{ recipe.name }} {{ i }}</h4>
         <p class="list-group-item-text"> {{ recipe.description }}</p>
     </div>
     <span class="pull-right">
